@@ -1,0 +1,130 @@
+body{
+    font-family: Albert Sans;
+    background: radial-gradient(circle, #4167FF, #0A1C61);
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+                                            /* CSS DO ROSTO */
+
+#rosto {
+    background-color: #222222;
+    height: 910px;
+    border-bottom-left-radius: 112px;
+    border-bottom-right-radius: 112px;
+}
+
+#rosto > h1 {
+    text-align: center;
+    margin-top: -20px;
+    font-size: 50px;
+    font-weight: 800;
+    font-size: 320px;
+    color: #4167FF;
+    text-shadow: 4px 4px 10px rgba(255, 255, 255, 0.25);
+}
+
+#rosto > img {
+    z-index: 10;
+    margin-top: -400px;
+    margin-left: 430px;
+}
+
+#p {
+    color: white;
+    display: flex;
+    gap: 650px;
+    z-index: 11;
+    margin-top: -350px;
+}
+
+#p > p {
+    font-size: 20px;
+    width: 250px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+                                            /* CSS DE CURIOSIDADES */
+
+#curiosidades {
+    color: white;
+    font-weight: 800;
+}
+
+#sub-container-curiosidades {
+    display: flex;
+    align-items: center;
+}
+
+#sub-container-curiosidades > img {
+    height: 250px;
+}
+
+#container-curiosidades{
+    background-color: #222222;
+    width: 630px;
+    align-items: center;
+    padding: 30px;
+    font-size: 26px;
+    border-radius: 55px;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+                                            /* CSS DE LUGARES QUE JA CONHECI */
+#lugares-conheci {
+    color: white;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 95px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.container-lugares-conheci {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.informacoes-lugares-conheci {
+    background-color: #222222;
+    width: 400px;
+    padding: 20px;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 3;
+    margin-top: 70px;
+}
+
+.item {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.item:hover {
+    color: #0073ff;
+    font-size: 21px;
+}
+
+.image-area img {
+    margin-top: 70px;
+  width: 400px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+  transition: opacity 0.4s ease;
+}
