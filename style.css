@@ -90,14 +90,14 @@ h2 {
     text-shadow: 4px 4px rgba(0, 0, 0, 0.25);
 }
 
-.container-lugares-conheci {
+.container {
     display: flex;
     gap: 80px;
     justify-content: center;
     margin: 0 auto;
 }
 
-.informacoes-lugares-conheci {
+.informacoes {
     background-color: #222222;
     width: 400px;
     padding: 20px;
@@ -114,17 +114,72 @@ h2 {
     transition: all 0.3s ease;
 }
 
+.item2 {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .item:hover {
     color: #0073ff;
     font-size: 21px;
 }
 
+.item2:hover {
+    color: #0073ff;
+    font-size: 21px;
+}
+
 .image-area img {
-    margin-top: 70px;
+  margin-top: 70px;
   width: 400px;
   height: 380px;
   object-fit: cover;
   border-radius: 15px;
   box-shadow: 0 4px 15px rgba(0,0,0,0.2);
-  transition: opacity 0.4s ease;
+  transition: opacity 0.4s ease; /* mantém isso! */
+  opacity: 1; /* garante valor inicial */
+}
+
+footer {
+    background-color: #222222;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+
+footer > p {
+    text-align: center;
+    font-size: 20px;
+}
+
+.redes_footer {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#instagram, #github, #filmes {
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    gap: 15px;
+}
+
+#github img {
+    height: 80px;
+}
+
+#instagram img,#filmes img {
+    height: 60px;
+}
+
+#instagram a, #github a, #filmes a {
+    color: white;
+    text-decoration: underline;
 }
